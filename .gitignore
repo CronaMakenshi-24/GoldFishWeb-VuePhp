@@ -1,0 +1,61 @@
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+Back-end/.idea
+Front-end/.idea
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dépendances
+/node_modules
+Front-end/node_modules
+Back-end/vendor
+
+# Fichiers de build Vue.js
+/dist
+Front-end/dist
+Front-end/.vite-ssg-temp
+Front-end/.vite-ssg-dist
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+Back-end/.env
+Back-end/.env.local
+Back-end/.env.*.local
+Front-end/.env
+Front-end/.env.local
+Front-end/.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Cache
+.npm
+.eslintcache
+.stylelintcache
+.phpunit.result.cache
+Front-end/.cache
+Front-end/.temp
+
+# Fichiers de configuration locaux
+*.local.php
+
+# Couverture de tests Vue
+Front-end/coverage
+
+# Cache de Vue
+Front-end/.nuxt
+Front-end/.nitro
+Front-end/.output
+
+
